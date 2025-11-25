@@ -6,4 +6,14 @@ this tool allow you to add, list, and delete tasks stored in a task.txt file.
 add new tasks
 list all tasks with numbering
 delete tasks by number 
-automatically create task.txt if missing 
+create tasks txt.file
+
+#instrusctions
+
+to add tasks type= ./todo.sh add "task description"
+
+to list tasks type= ./todo.sh list
+
+to delete tasks type= ./todo.sh delete
+
+to create tasks.txt file type= touch task.txt, on your terminal0r vs code.
