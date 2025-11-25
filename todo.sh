@@ -22,7 +22,7 @@ list)
        nl -w1 -s". " "$TASK_FILE"  #nl : number line, 1w is the width.
        ;;
  delete) 
-    if [-z "$2" ]; then
+    if [ -z "$2" ]; then
        echo "task number"
        exit 1                  #m exit 1 means if the condition is true the script terminate with a status code of 1.
     fi
